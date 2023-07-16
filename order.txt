@@ -1,0 +1,1 @@
+Film: Film 1, Jumlah Tiket: 2, Total Harga: 70, Diskon: 30, Tanggal Pesan: 2023-07-16 12:54:42
