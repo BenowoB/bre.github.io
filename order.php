@@ -1,15 +1,8 @@
-<html>
-
-<body>
-    <h1>TERIMA KASIH SUDAH TERKIRIM</h1>
-</body>
-
-</html>
 <?php
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $film = $_POST["film"];
     $jumlahTiket = $_POST["jumlahTiket"];
-    $hargaTiket = 50; // Harga tiket per satuannya
+    $hargaTiket = 50000; // Harga tiket per satuannya
 
     // Hitung total harga tiket
     $totalHarga = $hargaTiket * $jumlahTiket;
